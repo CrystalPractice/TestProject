@@ -1,0 +1,16 @@
+How to link or add our local project to Git Repository?
+Answer:Foe this solution, we have been following below steps.
+
+1.  Firstly we create repository name in Git. 
+Example: TestProject
+2. Secondly we enter project directory folder with Git Bash to add  project for write command.
+
+3.  Then command add and enter with below steps:
+
+  git init
+  git add .
+  git commit -m "First commit or initial commit message"
+  git remote add origin https://github.com/CrystalPractice/TestProject.git     // This link copy from our added repository
+  git push -u origin master
+  
+  
